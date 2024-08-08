@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active-link {
+    @apply text-indigo-600;
+  }
+}
+
+.multiple .filepond--item {
+  width: calc(25% - 0.5em);
+  display: inline-block;
+}
+
+.multiple .filepond--root {
+  max-height: 10em;
+}
+
+.multiple .filepond--list {
+  /* display: flex;
+  justify-content: center; */
+
+  text-align: center;
+}
